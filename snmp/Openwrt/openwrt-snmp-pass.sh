@@ -12,7 +12,7 @@
 # per-metric configuration). Rows are indexed by the kernel ifIndex, so the
 # table joins onto IF-MIB ifTable/ifXTable.
 #
-# Object layout (relative to the wireless base .102.1.10):
+# Object layout (relative to the wireless base .1.3.6.1.4.1.66510.1.10):
 #   .1.0                         openwrtWirelessInterfaceCount   (gauge)
 #   .2.0                         openwrtWirelessClientCount      (gauge, AP-side)
 #   .3.1.<col>.<ifIndex>         openwrtWirelessInterfaceTable columns:
